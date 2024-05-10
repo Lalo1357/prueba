@@ -1,0 +1,15 @@
+api:
+  identifier: 'lista-esolar'
+  port: 5001
+
+loggeer:
+  options:
+    level: trace
+
+mongodb:
+  url: "mongodb://127.0.0.1:27017"
+  database: 'studentsList'
+  timeout: 10000
+  options:
+    useUnifiedTopology: true
+    useNewUrlParser: true
